@@ -1,5 +1,7 @@
 require 'rubygems'
 require 'sinatra'
+require 'mandrill'
+mandrill = Mandrill::API.new 'YOUR_API_KEY'
 
 configure do
   enable :sessions
