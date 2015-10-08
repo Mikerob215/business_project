@@ -22,23 +22,23 @@ before '/secure/*' do
 end
 
 get '/' do
-  erb 'main'
+  erb :main
 end
 
 get '/how' do
-  erb 'howitworks'
+  erb :howitworks
 end
 
 get '/order' do
-  erb 'order'
+  erb :order
 end
 
 get '/about' do
-  erb 'about'
+  erb :about
 end
 
 get '/contact' do
-  erb 'contact'
+  erb :contact
 end
 
 get '/login/form' do
