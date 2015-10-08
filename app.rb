@@ -23,6 +23,22 @@ get '/' do
   erb 'home'
 end
 
+get '/how' do
+  erb 'how'
+end
+
+get '/order' do
+  erb 'order'
+end
+
+get '/about' do
+  erb 'about'
+end
+
+get '/contact' do
+  erb 'contact'
+end
+
 get '/login/form' do
   erb :login_form
 end
