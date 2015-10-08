@@ -22,11 +22,11 @@ before '/secure/*' do
 end
 
 get '/' do
-  erb 'home'
+  erb 'main'
 end
 
 get '/how' do
-  erb 'how'
+  erb 'howitworks'
 end
 
 get '/order' do
