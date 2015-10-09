@@ -51,6 +51,10 @@ post '/login/attempt' do
   redirect to where_user_came_from
 end
 
+post '/receipt' do
+  erb :receipt
+end
+
 get '/logout' do
   session.delete(:identity)
   erb "<div class='alert alert-message'>Logged out</div>"
