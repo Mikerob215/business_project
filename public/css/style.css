@@ -1,11 +1,18 @@
-/*.jumbotron_home {
-    position: relative;
-    background: #000 url("imgs/homebkg.png") center center;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    overflow: hidden;
-}*/
-h1{
-	
+.homebkg {
+    background-image: url(/imgs/homebkg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 40vw;
+		/*margin-top: 60px;*/
+}
+.home {
+	margin-top: 60px;
+}
+.navbar {
+	position: fixed;
+
+}
+.nav{
+		background-color: white;
 }

@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'mandrill'
-mandrill = Mandrill::API.new 'YOUR_API_KEY'
+m = Mandrill::API.new 'VhSJIlcktLnqNmy6LDWF9w'
 
 configure do
   enable :sessions
@@ -52,9 +52,20 @@ post '/login/attempt' do
 end
 
 post '/receipt' do
+
+  message = {
+    subject: 'Help wanted by customer',
+    from_name: params[:name],
+    text: params[:wanted],
+    to: [{ email: 'mikerobinson1@gmail.com', name: 'Recipient1' }],
+    html: params[:wanted],
+    from_email: params[:email]
+  }
+  sending = m.messages.send message
+  puts sending
   erb :receipt
 end
-
+your receipt below
 get '/logout' do
   session.delete(:identity)
   erb "<div class='alert alert-message'>Logged out</div>"
