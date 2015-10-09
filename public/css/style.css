@@ -32,3 +32,7 @@ h2 {
 .title {
 	opacity: 0.8;
 }
+footer{
+    clear: both;
+    text-align: center;
+}
