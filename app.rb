@@ -29,8 +29,8 @@ get '/how' do
   erb :howitworks
 end
 
-get '/order' do
-  erb :order
+get '/orders' do
+  erb :orders
 end
 
 get '/about' do
