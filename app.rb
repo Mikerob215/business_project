@@ -29,8 +29,8 @@ get '/how' do
   erb :howitworks
 end
 
-get '/order' do
-  erb :order
+get '/orders' do
+  erb :orders
 end
 
 get '/about' do
@@ -65,7 +65,7 @@ post '/receipt' do
   puts sending
   erb :receipt
 end
-your receipt below
+
 get '/logout' do
   session.delete(:identity)
   erb "<div class='alert alert-message'>Logged out</div>"
