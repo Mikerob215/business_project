@@ -45,3 +45,6 @@ footer{
     clear: both;
     text-align: center;
 }
+.container {
+	width: 100%;
+}
