@@ -31,11 +31,15 @@ h2 {
     border-radius: 20px;
     padding: 35px;
     /*float: right;*/
-    max-width: 50%;
+    /*max-width: 50%;*/
     box-shadow: 4px 3px 15px 8px rgba(230,223,230,0.75);
 }
 .title {
 	opacity: 0.8;
+}
+
+.sub_title {
+	margin-top: 60px;
 }
 footer{
     clear: both;
