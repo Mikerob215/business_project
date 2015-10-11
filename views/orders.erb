@@ -1,44 +1,38 @@
-<head>
-<script type="text/javascript" src="/js/orders.js"></script>
-<link rel="stylesheet" type="text/css" href="/css/style.css"> 
-</head>
-<body>
-
+<link rel="stylesheet" type="text/css" href="/css/style.css">
     <div class="orderbox">
-
         <div class="meat">
         <h4>Meat</h4>
         <img src="http://placehold.it/150x150">
-            <div class="counter">    
+            <div class="counter">
                 <label for="qty"><abbr title="Quantity">Qty</abbr></label>
-                <input id="qty" value="0" />
-                <button id="down" onclick="modify_qty(-1)"> - </button>
-                <button id="up" onclick="modify_qty(1)"> + </button>
+                <input class="qty1" value="0" />
+                <button class="down1"> - </button>
+                <button class="up1"> + </button>
             </div>
         </div>
 
         <div class="vegetables">
         <h4>Vegetables</h4>
         <img src="http://placehold.it/150x150">
-            <div class="counter">    
+            <div class="counter">
                 <label for="qty"><abbr title="Quantity">Qty</abbr></label>
-                <input id="qty" value="0" />
-                <button id="down" onclick="modify_qty(-1)"> - </button>
-                <button id="up" onclick="modify_qty(1)"> + </button>
+                <input class="qty2" value="0" />
+                <button class="down2"> - </button>
+                <button class="up2"> + </button>
             </div>
         </div>
 
         <div class="fruit">
         <h4>Fruit</h4>
         <img src="http://placehold.it/150x150">
-            <div class="counter">    
+            <div class="counter">
                 <label for="qty"><abbr title="Quantity">Qty</abbr></label>
-                <input id="qty" value="0" />
-                <button id="down" onclick="modify_qty(-1)"> - </button>
-                <button id="up" onclick="modify_qty(1)"> + </button>
+                <input class="qty3" value="0" />
+                <button class="down3"> - </button>
+                <button class="up3"> + </button>
             </div>
         </div>
 
 
     </div>
-</body>
+    <script type="text/javascript" src="/js/orders.js"></script>
