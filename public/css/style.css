@@ -1,5 +1,37 @@
 .homebkg {
-    background-image: url(/imgs/homebkg.png);
+    background-image: url(/imgs/home.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 50vw;
+		/*margin-top: 60px;*/
+}
+.howbkg {
+    background-image: url(/imgs/howbkg.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 40vw;
+		/*margin-top: 60px;*/
+}
+.orderbkg {
+    background-image: url(/imgs/orderbkg.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 50vw;
+		/*margin-top: 60px;*/
+}
+.aboutbkg {
+    background-image: url(/imgs/aboutbkg.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 40vw;
+		/*margin-top: 60px;*/
+}
+.contactbkg {
+    background-image: url(/imgs/contactbkg.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 100%;
