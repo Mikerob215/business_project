@@ -44,6 +44,9 @@ h2 {
     background-color: white;
     box-shadow: 0 -7px 4px 0 rgba(0,0,0,0.08);
 }
+.contact {
+  margin-top: 60px;
+}
 .title {
 	opacity: 0.8;
 }
@@ -55,7 +58,6 @@ footer{
     clear: both;
     text-align: center;
 }
-<<<<<<< HEAD
 
 .container {
 	width: 100%;
