@@ -39,25 +39,14 @@
 		/*margin-top: 60px;*/
 }
 .home {
-	margin-top: 60px;
+	margin-top: 50px;
 }
-
-
-h1 {
-	font-family: 'Comfortaa', cursive;
-	font-size: 40px;
-	color: rgb(201,193,203);
-	text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
-                 10px 20px 5px rgba(0,0,0,0.05),
-                 -10px 20px 5px rgba(0,0,0,0.05);
+.container {
+	width: 100%;
 }
-h2 {
-	font-family: 'Comfortaa', cursive;
-	font-size: 36px;
-	color: rgb(201,193,203);
-	text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
-                 10px 20px 5px rgba(0,0,0,0.05),
-                 -10px 20px 5px rgba(0,0,0,0.05);
+.copyright{
+	color: #EFF3F8;
+	font-size: 12px;
 }
 .wrapper {
     border-radius: 20px;
@@ -86,13 +75,42 @@ h2 {
 .sub_title {
 	margin-top: 60px;
 }
+.container {
+	width: 100%;
+}
+.orderwrapper {
+/*	clear: both;*/
+    border-radius: 10px;
+    padding: 25px;
+    /*float: right;*/
+    /*max-width: 50%;*/
+    background-color: white;
+    box-shadow: 4px 3px 15px 8px rgba(230,223,230,0.75);
+}
+
+
+/* HEADERS */
+
+h1 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 40px;
+	color: rgb(201,193,203);
+	text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
+h2 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 36px;
+	color: rgb(201,193,203);
+	text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+                 10px 20px 5px rgba(0,0,0,0.05),
+                 -10px 20px 5px rgba(0,0,0,0.05);
+}
 footer{
     clear: both;
     text-align: center;
 }
-
-.container {
-	width: 100%;
 
 
 /*------Order Counter Styling-------*/
