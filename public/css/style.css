@@ -45,7 +45,9 @@ footer{
     clear: both;
     text-align: center;
 }
-<<<<<<< HEAD
+
+.container {
+	width: 100%;
 
 
 /*------Order Counter Styling-------*/
@@ -119,8 +121,4 @@ button:hover, button:active, button:focus {
     box-shadow: 0px 0px 12px 0px #000;
   
 }
-=======
-.container {
-	width: 100%;
-}
->>>>>>> de900a9354c1f465f936a0a69280fd0cd4037ed0
+
