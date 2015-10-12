@@ -15,6 +15,7 @@ end
 
 before '/secure/*' do
   unless session[:identity]
+
     session[:previous_url] = request.path
     @error = 'Sorry, you need to be logged in to visit ' + request.path
     halt erb(:login_form)
@@ -47,6 +48,7 @@ end
 
 post '/login/attempt' do
   session[:identity] = params['username']
+
   # where_user_came_from = session[:previous_url] || '/'
   # redirect to where_user_came_from
   redirect '/'
@@ -69,10 +71,11 @@ end
 
 get '/logout' do
   session.delete(:identity)
-  erb "<div class='alert alert-message'>Logged out</div>"
+  erb :main
 end
 
 get '/secure/place' do
+
   erb 'This is a secret place that only <%=session[:identity]%> has access to!'
   redirect '/'
 end

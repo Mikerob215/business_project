@@ -11,14 +11,19 @@
             <br>
             <br>
             <br>
+            <% if username == 'Stranger'%>
             <div class="form-group">
               <form action='/login/attempt' class="form-inline" method='post'>
               <label for="username"></label>
               <input class="form-control" id="username" name="username" placeholder="" type="text">
               <input class="form-control" id="password" name="password" placeholder="" type="password">
               <button class="btn btn-default" name="button" type="submit">Login</button>
-              <p class="help-block">Help text here.</p>
+              <% else %>
+              <p>
+                welcome
+              </p>
             </form>
+            <% end %>
           </div>
         </div>
       </div>
