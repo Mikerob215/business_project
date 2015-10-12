@@ -47,8 +47,9 @@ end
 
 post '/login/attempt' do
   session[:identity] = params['username']
-  where_user_came_from = session[:previous_url] || '/'
-  redirect to where_user_came_from
+  # where_user_came_from = session[:previous_url] || '/'
+  # redirect to where_user_came_from
+  redirect '/'
 end
 
 post '/receipt' do
@@ -73,4 +74,5 @@ end
 
 get '/secure/place' do
   erb 'This is a secret place that only <%=session[:identity]%> has access to!'
+  redirect '/'
 end
