@@ -69,6 +69,9 @@
 .contact {
   margin-top: 60px;
 }
+.row  {
+  margin-top: 60px;
+}
 .title {
 /*	opacity: 0.8;*/
 }
@@ -128,7 +131,7 @@ input {
 	border-width: 0;
 	width: 100%;
 	margin: 0 0 .1em 0;
-	color: ##4c4c4c;
+	color: #fff;
 }
 
 label {
@@ -153,7 +156,7 @@ button:hover, button:active, button:focus {
 }
 
 .orderbox {
-	/*border: 2px solid black;*/
+	border: 2px solid black;
 	margin: 100px 20px 2px 20px;
 	position: fixed;
 	width: 80%;
@@ -161,7 +164,7 @@ button:hover, button:active, button:focus {
 }
 
 .meat .vegetables .fruit {
-	/*border: 2px solid red;*/
+	border: 2px solid red;
 	float: center;
 	margin: 10px;
 
@@ -169,7 +172,7 @@ button:hover, button:active, button:focus {
 
 .counter {
 	/* basics */
-	background-color: ##FFFFFF;
+	background-color: #a1a1a1;
 	color: #C4BE92;
     text-align: center;
     float: right;
