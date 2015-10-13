@@ -147,7 +147,7 @@ button {
 	background-color: #fff;
 	/* rounded corners */
 	border-radius: 6px;
-	height: 20px;
+	/*height: 20px;*/
 }
 
 button:hover, button:active, button:focus {

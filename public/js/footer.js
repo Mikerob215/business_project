@@ -27,7 +27,7 @@
     var boxHeight = $(".footbox").height();
         $(".footbox").mouseenter(function(){
             $(this).animate({
-                height: "300px"
+                height: "-300px"
             });
         }).mouseleave(function(){
             $(this).animate({
@@ -42,7 +42,7 @@
 //     $(this).animate({ height: 200 }, 'fast');
 //   });
 // $('.footbox').on('mouseover', function (event) {
-//     $('.footbox').css('max-height', '250px');        
+//     $('.footbox').css('max-height', '250px');
 // });
 // $('.footbox').on('mouseout', function (event) {
 //     $('.footbox').css('max-height', '200px');
