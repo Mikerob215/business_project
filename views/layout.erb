@@ -17,10 +17,10 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="container-fluid">
+		<div class="container">
 
 			<!-- Static navbar -->
-			<nav class="navbar navbar-default" role="navigation">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			  <div class="navbar-header">
 			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			      <span class="sr-only">Toggle navigation</span>
@@ -29,7 +29,7 @@
 			      <span class="icon-bar"></span>
 			    </button>
 			    <a class="navbar-brand" href="/">
-			    <img src="/imgs/vtm_type.png" width="80px">
+			    <img src="/imgs/vtm_type3.png" width="270px" style="-webkit-filter: drop-shadow(2px 2px 2px #bcbcbc); filter: drop-shadow(2px 2px 2px #bcbcbc);">
 			    </a>
 			  </div>
 			  <div class="navbar-collapse collapse">
@@ -52,7 +52,7 @@
 			    </ul>
 			  </div><!--/.nav-collapse -->
 			</nav>
-
+</div>
 
 			<div>
 			      <%if @error then %>
@@ -61,29 +61,29 @@
 			      <%= yield %>
 			</div>
 	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="footbox col-md-4">
-			Offer 1
-			</div>
-			<div class="footbox col-md-4">
-			Offer 2
-			</div>
-			<div class="footbox col-md-4">
-			Offer 3
-			</div>
-		</div>
-	</div>
+<!-- 	  <div class="container">
+    <div class="row"> -->
+      <div class="footbox col-md-4">
+      Offer 1
+      </div>
+      <div class="footbox col-md-4">
+      Offer 2
+      </div>
+      <div class="footbox col-md-4">
+      Offer 3
+      </div>
+    </div>
+  </div>
 	<div class="copyright">
 		<p>copyright 2015 number2pencil,llc dba vacay2me, inc.</p>
 	</div>
 	</footer>
-</div>
 </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/vendor/jquery-1.9.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/js/footer.js"></script>
   </body>
 </html>
